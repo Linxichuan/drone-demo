@@ -7,8 +7,11 @@ pipeline:
     image: golang:alpine
     # pull: true
     environment:
+      USERNAME:
+        from_secret: tklin
+      PASSWORD:
+        from_secret: tklin
       - KEY=VALUE
-    secrets: [key1, key2]
     commands:
       - echo $$KEY
       - pwd
