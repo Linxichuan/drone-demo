@@ -1,10 +1,20 @@
-workspace:
-  base: /go
-  path: E:\software\go_lang
-
-pipeline:
-  build:
-    image: golang:1.10.2
+kind: pipeline
+type: docker
+name: build
+steps:
+  - name: build
+    image: golang:alpine
+    pull: if-not-exists
+    environment:
+      KEY: VALUE
     commands:
-      - go test
-      - go build
+      - echo $KEY
+      - pwd
+      - ls
+      - CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o app .
+      - ./app
+
+
+trigger:
+  branch:
+    - master
