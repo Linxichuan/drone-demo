@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="226c9067-ac4e-408f-bc4f-c8a25c62f0c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.drone.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.drone.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app.go" afterDir="false" />
-    </list>
+    <list default="true" id="226c9067-ac4e-408f-bc4f-c8a25c62f0c5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try drone with golang demo" />
     <MESSAGE value="try drone with golang demo2" />
-    <option name="LAST_COMMIT_MESSAGE" value="try drone with golang demo2" />
+    <MESSAGE value="try drone with golang demo3" />
+    <option name="LAST_COMMIT_MESSAGE" value="try drone with golang demo3" />
   </component>
 </project>
