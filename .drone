@@ -1,0 +1,13 @@
+workspace:
+  base: /srv/drone-demo
+  path: .
+
+pipeline:
+  test:
+    image: golang:1.10.2
+    commands:
+      - go test
+  build:
+    image: golang:1.10.2
+    commands:
+      - go build
