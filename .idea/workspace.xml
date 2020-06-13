@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="226c9067-ac4e-408f-bc4f-c8a25c62f0c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.drone" beforeDir="false" afterPath="$PROJECT_DIR$/.drone" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +72,7 @@
     <MESSAGE value="try drone with golang demo2" />
     <MESSAGE value="try drone with golang demo3" />
     <MESSAGE value="try drone" />
-    <option name="LAST_COMMIT_MESSAGE" value="try drone" />
+    <MESSAGE value="try drone1" />
+    <option name="LAST_COMMIT_MESSAGE" value="try drone1" />
   </component>
 </project>
