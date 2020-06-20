@@ -11,7 +11,7 @@ pipeline:
         from_secret: tklin
       PASSWORD:
         from_secret: tklin
-      - KEY=VALUE
+        - KEY=VALUE
     commands:
       - echo $$KEY
       - pwd
